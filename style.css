@@ -1,3 +1,20 @@
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	display: grid;
+	grid-template-columns: minmax(min-content, 200px) 1fr;
+	grid-template-areas: 
+  "header header"
+  "nav main"
+  "footer footer";
+	font-family: system-ui, sans-serif;
+	font-size: 1.5em;
+}
+
 header img {
     height: 80px;
    
@@ -52,18 +69,19 @@ header li a {
 
 
 
-.btn {width: 100%;
+.btn {width: 89%;
   border: 30px;
-  background-color: blue;
+  background-color: rgb(76, 76, 248);
   padding: 30px;
   font-size: 30px;
   cursor: pointer;
   display: inline-block;
   text-decoration: none;
+  text-align: center;
 }
 
 /* On mouse-over */
-.btn:hover {background: rgb(255, 1, 1);}
+.btn:hover {background: rgb(247, 101, 101);}
 
 .btn {color: white;}
 
