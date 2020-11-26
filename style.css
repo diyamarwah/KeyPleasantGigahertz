@@ -40,3 +40,30 @@ header li a {
     text-decoration: none;
     font-weight: 200
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.btn {width: 100%;
+  border: 30px;
+  background-color: blue;
+  padding: 30px;
+  font-size: 30px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* On mouse-over */
+.btn:hover {background: rgb(255, 1, 1);}
+
+.btn {color: white;}
+
