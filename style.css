@@ -91,7 +91,13 @@ header li a {
     font-weight: 200
 }
 
-
+footer {
+	grid-area: footer;
+	background: #607D8B;
+	color: white;
+	padding: 4rem;
+	text-align: center;
+}
 
 
 
